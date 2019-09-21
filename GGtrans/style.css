@@ -1,0 +1,136 @@
+body {
+    background: rgb(58,58,58);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+    padding:0;
+}
+header {
+    background: black;
+    
+    background-size: 100%;
+    background-position: center;
+    padding: 0px;
+    height:400px;
+    text-align:center;
+
+}
+/* header part */
+header .logo a{
+    background-color:none;
+    background-image: url("/logo.png");
+    background-size:400px;
+    background-repeat:no-repeat;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    text-indent: -50000px;
+
+    
+}
+
+.header-links a{
+    color:white;
+}
+header .mobile{
+    display: none;
+}
+
+/* Responsive Rules*/
+
+/* if and() is true, the css commands in {} will be applied */
+@media screen and (max-width: 650px) {
+    header{
+        height: 200px;
+    }
+    header .mobile {
+        display: inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
+}
+
+.Search_Bar { 
+    margin:20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Search_bar div{
+    text-transform:uppercase;
+    margin:auto;   
+    display:flex;
+    flex-direction:column;     
+}
+button {
+    margin:12px;
+}
+
+
+.Search_bar label{
+    display: block;
+    text-align: center;
+}
+.Search_bar textarea{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    height:400px;
+    width:400px;
+    background: gray;
+    font-size:20;
+}
+
+/* Ronnie's images
+.Ronnie {
+    background: black;
+    color: gray;
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Ronnie figure{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    text-transform:uppercase;
+}
+.Ronnie figure img{
+    border: 1px solid white;
+    border-radius:10px;
+    box-shadow: gray 0px 0px 10px;
+    width: 200px;
+}
+ */
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Responsive Rules
+@media screen and (max-width: 700px) {
+    .Ronnie {
+        display: block;
+    }
+}*/
+
+
+
+
+footer {
+    background: black;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 12px;
+
+}
