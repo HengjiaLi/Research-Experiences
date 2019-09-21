@@ -1,0 +1,41 @@
+git clone https://github.com/respeaker/seeed-voicecard
+cd seeed-voicecard
+sudo ./install.sh 
+sudo reboot
+
+#for ReSpeaker 4 Mic Array
+pi@raspberrypi:~ $ arecord -L
+null
+    Discard all samples (playback) or generate zero samples (capture)
+playback
+capture
+dmixed
+array
+ac108
+default:CARD=seeed4micvoicec
+    seeed-4mic-voicecard, 
+    Default Audio Device
+sysdefault:CARD=seeed4micvoicec
+    seeed-4mic-voicecard, 
+    Default Audio Device
+dmix:CARD=seeed4micvoicec,DEV=0
+    seeed-4mic-voicecard, 
+    Direct sample mixing device
+dsnoop:CARD=seeed4micvoicec,DEV=0
+    seeed-4mic-voicecard, 
+    Direct sample snooping device
+hw:CARD=seeed4micvoicec,DEV=0
+    seeed-4mic-voicecard, 
+    Direct hardware device without any conversions
+plughw:CARD=seeed4micvoicec,DEV=0
+    seeed-4mic-voicecard, 
+    Hardware device with all software conversions
+pi@raspberrypi:~ $ 
+
+sudo pip install pyusb
+sudo python pixel_ring.py
+
+sudo apt-get install python-numpy    # or pip install numpy
+pi@raspberrypi:~ $ sudo apt-get install python-pyaudio // intal pyaudio
+
+python mic_array.py

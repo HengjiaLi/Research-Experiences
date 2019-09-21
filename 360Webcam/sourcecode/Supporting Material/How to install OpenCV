@@ -1,0 +1,16 @@
+For Windows users, this seems to be a good tutorial and Windows installation
+is quite intuitive anyway:
+https://www.learnopencv.com/install-opencv3-on-windows/
+
+For Linux users (Ubuntu 16.04 and previous versions), check out this:
+https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
+
+For Linux users (Ubuntu 18.04), this tutorial works as a charm without
+even a warning raised:
+https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/
+
+For Raspberry Pi, this should work:
+https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/
+
+For Mac users, check out this page:
+https://www.pyimagesearch.com/2018/08/17/install-opencv-4-on-macos/
